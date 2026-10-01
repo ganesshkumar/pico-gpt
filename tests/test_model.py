@@ -2,7 +2,7 @@ import unittest
 
 import torch
 
-from pico_gpt.model import PicoGPT, PicoGPTConfig
+from model import PicoGPT, PicoGPTConfig
 
 
 def make_model():

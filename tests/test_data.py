@@ -2,7 +2,7 @@ import unittest
 
 import torch
 
-from pico_gpt.data import build_dataset
+from data import build_dataset
 
 
 class DatasetTests(unittest.TestCase):

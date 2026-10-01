@@ -4,8 +4,8 @@ from contextlib import redirect_stdout
 
 import torch
 
-from pico_gpt.model import PicoGPT, PicoGPTConfig
-from pico_gpt.training import estimate_loss, train_model
+from model import PicoGPT, PicoGPTConfig
+from training import estimate_loss, train_model
 
 
 class TrainingTests(unittest.TestCase):
